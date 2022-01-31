@@ -1,7 +1,0 @@
-Package pybeam must be installed before use.  To do this:
-
-    - Open "Terminal" (Mac or Linux), "Command Prompt" (Windows) or "Anaconda Prompt"
-      (with anaconda).
-    - Change directory to "...\pybeam" (directory this file is located in).
-    - Run the entire following line, including the period:
-        pip install -e .
