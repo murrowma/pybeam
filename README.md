@@ -27,3 +27,8 @@ PyBEAM contains two sub-modules: default and custom. The default sub-module prov
 
 Jupyter notebook tutorials which introduce both sub-modules are provided here. The directory "default_tutorials" provides notebooks for the default sub-module, while "custom_tutorials" provides tutorials for the cutsom sub-module.
 
+# Custom Model Template
+
+Files for the custom model template are provided here. See "Custom_Tutorial1_creating_a_custom_model" for directions on how to use these files.
+
+
