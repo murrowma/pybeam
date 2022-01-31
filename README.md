@@ -1,2 +1,2 @@
 # Welcome to PyBEAM!
-Files for the python package PyBEAM (Bayesian Evidence Accumulation Models).
+PyBEAM (Bayesian Evidence Accumulation Models) is a Python package
