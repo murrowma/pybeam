@@ -15,4 +15,8 @@ Once you have downloaded and linked a compilier to Python, you must now download
 
     https://docs.pymc.io/en/v3/
     
-Once
+Once you have installed PyMC3, download and unzip pybeam.zip. Then, open one of conosle, command prompt, or anacond prompt (depending on your system), and navigate to the pybeam directory. In this directory there should be two files: the folder pybeam, and a setup.py file. Once there, run the following line of code (INCLUDING the period):
+
+    pip install .
+    
+Once you have done this, PyBEAM is ready to be used! Open the tutorials to get started.
