@@ -19,4 +19,4 @@ Once you have installed PyMC3, download and unzip pybeam.zip. Then, open one of 
 
     pip install .
     
-Once you have done this, PyBEAM is ready to be used! Open the tutorials to get started.
+Once you have done this, PyBEAM is ready to be used! Go to the "tutorials" directory on GitHub to get started!
