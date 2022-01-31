@@ -25,10 +25,8 @@ Once you have done this, PyBEAM is ready to be used!
 
 PyBEAM contains two sub-modules: default and custom. The default sub-module provides many pre-coded models from the literature which should be sufficient for most needs. The second sub-module, custom, provides tools for users to create their own models outside the scope of the pre-coded set.
 
-Jupyter notebook tutorials which introduce both sub-modules are provided here. The directory "default_tutorials" provides notebooks for the default sub-module, while "custom_tutorials" provides tutorials for the cutsom sub-module.
+Jupyter notebook tutorials which introduce both sub-modules are provided here. The folder "default_tutorials" provides notebooks for the default sub-module, while "custom_tutorials" provides tutorials for the cutsom sub-module.
 
 # Custom Model Template
 
-Files for the custom model template are provided here. See "Custom_Tutorial1_creating_a_custom_model" for directions on how to use these files.
-
-
+Folder "custom_model_template.zip" contains the custom model template files. See "Custom_Tutorial1_creating_a_custom_model" for directions on how to use these files.
