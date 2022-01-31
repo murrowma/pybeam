@@ -1,3 +1,2 @@
 # pybeam
-pybeam
-Py
+Python package PyBEAM (Bayesian Evidence Accumulation Models).
