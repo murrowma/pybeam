@@ -23,4 +23,7 @@ Once you have done this, PyBEAM is ready to be used!
 
 # Learning to use PyBEAM
 
-Jupyter notebook tutorials are provided to get you started with PyBEAM. They provided stepy by step intstructions on model building and parameter inference. Two sets of these are provided: one for the PyBEAM default module, and another for the PyBEAM custom module.
+PyBEAM contains two sub-modules: default and custom. The default sub-module provides many pre-coded models from the literature which should be sufficient for most needs. The second sub-module, custom, provides tools for users to create their own models outside the scope of the pre-coded set.
+
+Jupyter notebook tutorials which introduce both sub-modules are provided here. The directory "default_tutorials" provides notebooks for the default sub-module, while "custom_tutorials" provides tutorials for the cutsom sub-module.
+
