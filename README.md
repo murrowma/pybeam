@@ -3,17 +3,17 @@ PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to r
 
 # Installation
 
-To install PyBEAM, you must first install a C compilier. PyBEAM utilizes Cython to improve program speed, requiring a files to be compilied. For Mac, this is part of the xcode library. If it is not already on your Mac, you will be prompted automatically to install it when you install PyBEAM. For Windows, a compilier must be downloaded separately. A couple options are available to do this. The first is to download Window's Visual Studio program. Instructions for this are at the following url (as of January 30, 2022):
+To install PyBEAM, you must first install Cython and a C compilier. PyBEAM utilizes Cython to improve program speed, requiring files to be compilied. Cython is installed via pip like other Python packages. Instructions for doing this are at the following link:
+
+    https://cython.readthedocs.io/en/stable/src/quickstart/install.html
+
+After Cython is installed, download a compilier. For Mac, this is part of the xcode library. If it is not already on your Mac, you will be prompted automatically to install it when you install PyBEAM. For Windows, a compilier must be downloaded separately. A couple options are available to do this. The first is to download Window's Visual Studio program. Instructions for this are at the following url (as of January 30, 2022):
 
     https://github.com/cython/cython/wiki/CythonExtensionsOnWindows
     
 The second option is to install MinGW (NOT MinGW-64). Instructions for this are located on Cython's docs, located at this URL (as of January 30, 2022):
 
     https://cython.readthedocs.io/en/latest/src/tutorial/appendix.html?highlight=compile%20windows
-    
-After C compiliers have been installed, you must next install Cython. This can be pip installed like other Python packages. Instructions for this are at the follwoing link:
-
-    https://cython.readthedocs.io/en/stable/src/quickstart/install.html
     
 Once you have downloaded and linked a compilier to Python, you must now download PyMC3. Instructions for this are located on PyMC3's website at the url below (as of January 30, 2022):
 
