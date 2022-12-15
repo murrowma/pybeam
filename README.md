@@ -7,7 +7,7 @@ To install PyBEAM, you must first install PyMC. To do so, follow the instruction
 
   https://www.pymc.io/projects/docs/en/latest/installation.html
   
-Note that 
+Note that isseus sometimes pop up with the default environment environment. Clearing the virtual env of all packages before installing PyMC or installing PyMC using Miniconda instead of full Anaconda solves this issue.
 
 Once you have installed 
 
