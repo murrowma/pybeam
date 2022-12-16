@@ -3,31 +3,23 @@ PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to r
 
 # Installation
 
-To install PyBEAM, you must first install PyMC. To do so, follow the instructions located on PyMC's website. The url for this as of December 15, 2022, is below:
+To install PyBEAM, you must first install PyMC. To do so, follow the instructions located on PyMC's website. The url for this is (as ofDecember 15, 2022):
 
   https://www.pymc.io/projects/docs/en/latest/installation.html
-  
-Note that isseus sometimes pop up with the default environment environment. Clearing the virtual env of all packages before installing PyMC or installing PyMC using Miniconda instead of full Anaconda solves this issue.
 
-Once you have installed 
-
-To install PyBEAM, you must first install Cython and a C compilier. PyBEAM utilizes Cython to improve program speed, requiring files to be compilied. Cython is installed via pip like other Python packages. Instructions for doing this are at the following link:
+Once you have installed PyMC, you must next install the Python package Cython and a C compiliter. PyBEAM utilizes Cython to improve program speed, requiring files to be compilied. Cython is installed via pip like other Python packages. Instructions for doing this are at the following link:
 
     https://cython.readthedocs.io/en/stable/src/quickstart/install.html
 
-After Cython is installed, download a compilier. For Mac, this is part of the xcode library. If it is not already on your Mac, you will be prompted automatically to install it when you install PyBEAM. For Windows, a compilier must be downloaded separately. A couple options are available to do this. The first is to download Window's Visual Studio program. Instructions for this are at the following url (as of January 30, 2022):
+After Cython is installed, download a compilier. For Mac, this is part of Xtools, which can be downloaded from console or the app store. If it is not already on your Mac, you will be prompted automatically to install it when you install PyBEAM. For Windows, a compilier must be downloaded separately. A couple options are available to do this. The first is to download Window's Visual Studio program. Instructions for this are at the following url (as of December 15, 2022):
 
     https://github.com/cython/cython/wiki/CythonExtensionsOnWindows
     
-The second option is to install MinGW (NOT MinGW-64). Instructions for this are located on Cython's docs, located at this URL (as of January 30, 2022):
+The second option is to install MinGW (NOT MinGW-64). Instructions for this are located on Cython's docs, located at this URL (as of December 15, 2022):
 
     https://cython.readthedocs.io/en/latest/src/tutorial/appendix.html?highlight=compile%20windows
     
-Once you have downloaded and linked a compilier to Python, you must now download PyMC3. Instructions for this are located on PyMC3's website at the url below (as of January 30, 2022):
-
-    https://docs.pymc.io/en/v3/
-    
-Once you have installed PyMC3, download and unzip pybeam.zip. Then, open one of conosle, command prompt, or anacond prompt (depending on your system), and navigate to the pybeam directory. In this directory there should be two files: the folder pybeam, and a setup.py file. Once there, run the following line of code (INCLUDING the period):
+We can now install PyBEAM. First, download and unzip pybeam.zip. Then, open one of conosle, command prompt, or anacond prompt (depending on your system), and navigate to the pybeam directory. In this directory there should be two files: the folder pybeam, and a setup.py file. Once there, run the following line of code (INCLUDING the period):
 
     pip install .
     
@@ -35,9 +27,7 @@ Once you have done this, PyBEAM is ready to be used!
 
 # Learning to use PyBEAM
 
-PyBEAM contains two sub-modules: default and custom. The default sub-module provides many pre-coded models from the literature which should be sufficient for most needs. The second sub-module, custom, provides tools for users to create their own models outside the scope of the pre-coded set.
-
-Jupyter notebook tutorials which introduce both sub-modules are provided here. The folder "default_tutorials" provides notebooks for the default sub-module, while "custom_tutorials" provides tutorials for the cutsom sub-module.
+PyBEAM contains two sub-modules: pre-coded and custom. The pre-coded sub-module provides many pre-coded models from the literature which should be sufficient for most needs. The second sub-module, custom, provides tools for users to create their own models outside the scope of the pre-coded set. Tutorials for using the models are provided in Jupyter notebooks located in the folder "Tutorials".
 
 # Custom models
 
