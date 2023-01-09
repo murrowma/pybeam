@@ -3,7 +3,7 @@ PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to r
 
 # Installation
 
-To install PyBEAM, you must first install PyMC. To do so, follow the instructions located on PyMC's website. The url for this is (as ofDecember 15, 2022):
+To install PyBEAM, you must first install PyMC. To do so, follow the instructions located on PyMC's website. The url for this is (as of December 15, 2022):
 
   https://www.pymc.io/projects/docs/en/latest/installation.html
 
