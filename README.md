@@ -19,7 +19,7 @@ The second option is to install MinGW (NOT MinGW-64). Instructions for this are 
 
     https://cython.readthedocs.io/en/latest/src/tutorial/appendix.html?highlight=compile%20windows
     
-We can now install PyBEAM. First, download and unzip pybeam.zip. Then, open one of conosle, command prompt, or anacond prompt (depending on your system), and navigate to the pybeam directory. In this directory there should be two files: the folder pybeam, and a setup.py file. Once there, run the following line of code (INCLUDING the period):
+We can now install PyBEAM. First, download and unzip pybeam.zip. Then, open one of conosle, command prompt, or anaconda prompt (depending on your system), and navigate to the pybeam directory. In this directory there should be two files: the folder pybeam, and a setup.py file. Once there, run the following line of code (INCLUDING the period):
 
     pip install .
     
