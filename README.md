@@ -7,15 +7,23 @@ To install PyBEAM, you must first install PyMC. To do so, follow the instruction
 
     https://www.pymc.io/projects/docs/en/latest/installation.html
 
-Once you have installed PyMC, you must next install the Python package Cython and a C compiliter. PyBEAM utilizes Cython to improve program speed, requiring files to be compilied. Cython is installed via pip like other Python packages. Instructions for doing this are at the following link:
+Once you have installed PyMC, you must next install the Python package Cython and a C compiliter. PyBEAM utilizes Cython to improve program speed, requiring files to be compilied. Cython is installed via pip or conda like other Python packages, using either:
+
+    pip install Cython
+    conda install Cython
+
+More detailed instructions for installing Cython are available at the following link if needed:
 
     https://cython.readthedocs.io/en/stable/src/quickstart/install.html
 
-After Cython is installed, download a compilier. For Mac, this is part of Xtools, which can be downloaded from console or the app store. If it is not already on your Mac, you will be prompted automatically to install it when you install PyBEAM. For Windows, a compilier must be downloaded separately. A couple options are available to do this. The first is to download Window's Visual Studio program. Instructions for this are at the following url (as of December 15, 2022):
+After Cython is installed, download a compilier. For Mac, this is part of Xtools, which can be downloaded from terminal or the app store. If it is not already on your Mac, you will be prompted automatically to install it when you install PyBEAM. To download directly from terminal, open a terminal window and input the following command:
+
+    xcode-select --install
+For Windows, a compilier must be downloaded separately. A couple options are available to do this. The first is to download Window's Visual Studio program. Instructions for this are at the following url (as of December 15, 2022):
 
     https://github.com/cython/cython/wiki/CythonExtensionsOnWindows
     
-The second option is to install MinGW (NOT MinGW-64). Instructions for this are located on Cython's docs, located at this URL (as of December 15, 2022):
+The second option is to install MinGW (NOT MinGW-64). Though this is not recommended, instructions for this are located on Cython's docs, located at this URL (as of December 15, 2022):
 
     https://cython.readthedocs.io/en/latest/src/tutorial/appendix.html?highlight=compile%20windows
     
@@ -27,7 +35,7 @@ Once you have done this, PyBEAM is ready to be used!
 
 # Learning to use PyBEAM
 
-PyBEAM contains two sub-modules: pre-coded and custom. The pre-coded sub-module provides many pre-coded models from the literature which should be sufficient for most needs. The second sub-module, custom, provides tools for users to create their own models outside the scope of the pre-coded set. Tutorials for using the models are provided in Jupyter notebooks located in the folder "Tutorials".
+PyBEAM contains two sub-modules: precoded and custom. The precoded sub-module provides many pre-coded models from the literature which should be sufficient for most needs. The second sub-module, custom, provides tools for users to create their own models outside the scope of the pre-coded set. Tutorials for using the models are provided in Jupyter notebooks located in the folder "Tutorials". Futher examples are provided in folder "Examples".
 
 # Custom models
 
