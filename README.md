@@ -29,7 +29,7 @@ The second option is to install MinGW (NOT MinGW-64). Though this is not recomme
     
 We can now install PyBEAM. First, download and unzip pybeam.zip. Then, open one of conosle, command prompt, or anaconda prompt (depending on your system), and navigate to the pybeam directory. In this directory there should be two files: the folder pybeam, and a setup.py file. Once there, run the following line of code (INCLUDING the period):
 
-    pip install .
+    pip install -e .
     
 Once you have done this, PyBEAM is ready to be used!
 
