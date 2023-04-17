@@ -7,7 +7,7 @@ To install PyBEAM, you must first install PyMC. To do so, follow the instruction
 
     https://www.pymc.io/projects/docs/en/latest/installation.html
 
-Once you have installed PyMC, you must next install the Python package Cython and a C compiliter. PyBEAM utilizes Cython to improve program speed, requiring files to be compilied. Cython is installed via pip or conda like other Python packages, using either:
+Once you have installed PyMC, you must next install the Python package Cython and a C compilier. PyBEAM utilizes Cython to improve program speed, requiring files to be compilied. Cython is installed via pip or conda like other Python packages, using either:
 
     pip install Cython
     conda install Cython
