@@ -1,5 +1,5 @@
 # Welcome to PyBEAM!
-PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to rapidly fit two-threshold, binary choice models to choice-RT data using Bayesian inference methods. For a full description of its design, see the publication (https://psyarxiv.com/ax36b/). To learn how to use PyBEAM, see the "Tutorials" directory for step-by-step introductions.
+PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to rapidly fit two-threshold, binary choice models to choice-RT data using Bayesian inference methods. For a full description of its design, see the publication (https://psyarxiv.com/ax36b/). To learn how to use PyBEAM, see the "Tutorials" directory for step-by-step instructions.
 
 # Installation
 
