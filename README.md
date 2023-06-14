@@ -1,5 +1,5 @@
 # Welcome to PyBEAM!
-PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to rapidly fit two-threshold, binary choice models to choice-RT data using Bayesian inference methods. For a full description of its design, see the publication (https://psyarxiv.com/ax36b/). To learn how to use PyBEAM, see the "Tutorials" directory for step-by-step instructions.
+PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to rapidly fit two-threshold, binary choice models to choice-RT data using Bayesian inference methods. For a full description of its design, see the publication (https://psyarxiv.com/ax36b/). For access to the package code and other files, see the PyBEAM github (https://github.com/murrowma/pybeam/). To learn how to install and use PyBEAM, see the PyBEAM documentation (https://pybeam-documentation.readthedocs.io/en/latest/index.html) and tutorials/example files located here.
 
 # Installation
 
@@ -33,10 +33,8 @@ We can now install PyBEAM. First, download and unzip pybeam.zip. Then, open one 
     
 Once you have done this, PyBEAM is ready to be used!
 
-# Learning to use PyBEAM
+# Learning to use PyBEAM:
+PyBEAM contains two submodules: precoded and custom. The precoded submodule provides many precoded models from the literature which should be sufficient for most needs. The second submodule, custom, provides tools for users to create their own models outside the scope of the precoded set. Tutorials for using the models are provided in Jupyter notebook form under the Precoded tutorials and Custom tutorials tabs. For full documentation of PyBEAM’s functions, see tabs Precoded functions and Custom functions. Futher examples are provided in folder “Examples” on the PyBEAM github.
 
-PyBEAM contains two sub-modules: precoded and custom. The precoded sub-module provides many pre-coded models from the literature which should be sufficient for most needs. The second sub-module, custom, provides tools for users to create their own models outside the scope of the pre-coded set. Tutorials for using the models are provided in Jupyter notebooks located in the folder "Tutorials". Futher examples are provided in folder "Examples".
-
-# Custom models
-
-Folder "custom_model_template.zip" contains the custom model template files. See "Custom Tutorial 1: Creating a custom model" for directions on how to use these files to create your own custom model.
+# Custom models:
+Folder “custom_model_template.zip” on the PyBEAM github contains the custom model template files. See the Custom tutorials tab for instructions on how to create your own model.
