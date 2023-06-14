@@ -33,7 +33,7 @@ For Windows, a compilier must be downloaded separately. A couple options are ava
 
 The second option is to install MinGW (NOT MinGW-64). Though this is not recommended, instructions for this are located on Cython’s docs, located at this URL (as of December 15, 2022):
 
-  https://cython.readthedocs.io/en/latest/src/tutorial/appendix.html?highlight=compile%20windows
+    https://cython.readthedocs.io/en/latest/src/tutorial/appendix.html?highlight=compile%20windows
 
 We can now install PyBEAM. First, download and unzip pybeam.zip. Then, open one of conosle, command prompt, or anaconda prompt (depending on your system), and navigate to the pybeam directory. In this directory there should be two files: the folder pybeam, and a setup.py file. Once there, run the following line of code (INCLUDING the period):
 
