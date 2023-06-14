@@ -7,7 +7,7 @@ PyBEAM (Bayesian Evidence Accumulation Models) is a Python package designed to r
 - Python 3.9 or higher
 - PyMC (v5) and its dependencies (automatically installed when PyMC is installed)
 - numpy, matplotlib, and ArviZ (installed automatically with PyMC)
-- Cython
+- Cython and a C compiler
 
 ## Installing PyBEAM
 To install PyBEAM, you must first install PyMC. To do so, follow the instructions located on PyMC’s website. The url for this as of April 17, 2023 is:
